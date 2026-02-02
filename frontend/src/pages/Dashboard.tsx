@@ -6,7 +6,7 @@ import CreateJob from "../components/CreateJob"
 
 export default function Dashboard() {
   const [jobs, setJobs] = useState<any[]>([])
-  const navigate = useNavigate()
+  import { useNavigate } from "react-router-dom"
 
   const loadJobs = async () => {
     const res = await getJobs()
@@ -37,4 +37,5 @@ export default function Dashboard() {
     </div>
   )
 }
+
 
