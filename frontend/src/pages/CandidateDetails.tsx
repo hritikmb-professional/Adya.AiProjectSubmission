@@ -43,7 +43,7 @@ export default function CandidateDetails() {
 
     try {
       setUpdating(true)
-      const res = await updateCandidateStatus(candidateId, newStatus)
+      const res = await updateCandidateStatus(candidateId, newStatus as "shortlisted" | "hired" | "rejected")
       setCandidate(res.data) // backend is source of truth
       setOpen(false)
     } catch (err) {
@@ -160,3 +160,4 @@ export default function CandidateDetails() {
     </div>
   )
 }
+
