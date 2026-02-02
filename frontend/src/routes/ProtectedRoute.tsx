@@ -1,9 +1,10 @@
+import { ReactNode } from "react"
 import { Navigate } from "react-router-dom"
 
 export default function ProtectedRoute({
   children
 }: {
-  children: JSX.Element
+  children: ReactNode
 }) {
   const token = localStorage.getItem("token")
 
@@ -13,3 +14,4 @@ export default function ProtectedRoute({
 
   return children
 }
+
