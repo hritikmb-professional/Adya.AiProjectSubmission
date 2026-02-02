@@ -30,10 +30,11 @@ export default function Dashboard() {
           <JobCard
             key={job._id}
             job={job}
-            onClick={() => navigate(`/jobs/${job._id}`)}
+            
           />
         ))}
       </div>
     </div>
   )
 }
+
