@@ -1,12 +1,10 @@
 import { useEffect, useState } from "react"
-import { useNavigate } from "react-router-dom"
 import { getJobs } from "../api/jobs"
 import JobCard from "../components/JobCard"
 import CreateJob from "../components/CreateJob"
 
 export default function Dashboard() {
   const [jobs, setJobs] = useState<any[]>([])
-  import { useNavigate } from "react-router-dom"
 
   const loadJobs = async () => {
     const res = await getJobs()
@@ -30,12 +28,9 @@ export default function Dashboard() {
           <JobCard
             key={job._id}
             job={job}
-            
           />
         ))}
       </div>
     </div>
   )
 }
-
-
