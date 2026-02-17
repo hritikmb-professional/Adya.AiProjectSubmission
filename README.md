@@ -2,12 +2,7 @@
 
 An intelligent recruitment platform that uses AI to automatically parse resumes, match candidates with job requirements, and provide detailed analysis.
 
-## 🚀 Live Demo
-
-- **Frontend**: https://adya-ai-project-submission.vercel.app/
-- **Backend API**: https://smartrecruit-backend-9yju.onrender.com/
-
-## ✨ Features
+##  Features
 
 - **AI Resume Parsing**: Automatically extracts information from PDF/DOCX resumes
 - **Smart Matching**: Uses Google Gemini AI to match candidates with job requirements
@@ -16,7 +11,7 @@ An intelligent recruitment platform that uses AI to automatically parse resumes,
 - **Secure Authentication**: JWT-based user authentication
 - **Real-time Analysis**: Instant AI-powered candidate evaluation
 
-## 🛠️ Tech Stack
+##  Tech Stack
 
 ### Frontend
 - React 19 with TypeScript
@@ -39,14 +34,14 @@ An intelligent recruitment platform that uses AI to automatically parse resumes,
 - **PDF Parser**: Extract text from PDF resumes
 - **Mammoth.js**: Parse DOCX documents
 
-## 📋 Prerequisites
+##  Prerequisites
 
 - Node.js (v18 or higher)
 - MongoDB Atlas account
 - Google Gemini API key
 - Git
 
-## 🔧 Setup Instructions
+##  Setup Instructions
 
 ### 1. Clone the Repository
 
@@ -113,7 +108,7 @@ Frontend will run on `http://localhost:5173`
 3. Click "Create API Key"
 4. Copy the generated key
 
-## 🚀 Deployment Steps
+##  Deployment Steps
 
 ### Backend Deployment (Render)
 
@@ -154,7 +149,7 @@ Frontend will run on `http://localhost:5173`
 
 4. **Deploy**: Vercel auto-deploys on push
 
-## 📱 Usage
+##  Usage
 
 ### Sign Up / Login
 1. Navigate to the app
@@ -178,7 +173,7 @@ Frontend will run on `http://localhost:5173`
 3. Update status (shortlisted/hired/rejected)
 4. Compare multiple candidates side-by-side
 
-## 🧪 Testing
+##  Testing
 
 ### Manual Testing Checklist
 - ✅ User registration and login
@@ -209,7 +204,7 @@ Frontend will run on `http://localhost:5173`
 **Resumes**
 - POST `/api/resumes/upload` - Upload and parse resume
 
-## 🔐 Security Features
+##  Security Features
 
 - JWT-based authentication
 - Password hashing with bcrypt
@@ -218,7 +213,7 @@ Frontend will run on `http://localhost:5173`
 - Input validation
 - Secure file upload handling
 
-## 📊 AI Implementation Details
+##  AI Implementation Details
 
 ### Resume Parsing
 1. Extract text from PDF/DOCX using specialized parsers
@@ -239,7 +234,7 @@ Frontend will run on `http://localhost:5173`
 - Skill categorization (technical, soft skills)
 - Experience level assessment
 
-## 🐛 Troubleshooting
+##  Troubleshooting
 
 **Backend won't start**
 - Check MongoDB connection string
@@ -261,7 +256,7 @@ Frontend will run on `http://localhost:5173`
 - Check username/password in connection string
 - Ensure cluster is active
 
-## 📝 Project Structure
+##  Project Structure
 
 ```
 .
@@ -288,20 +283,20 @@ Frontend will run on `http://localhost:5173`
 └── README.md
 ```
 
-## 🤝 Contributing
+##  Contributing
 
 Contributions are welcome! Please feel free to submit a Pull Request.
 
-## 📄 License
+##  License
 
 This project is licensed under the MIT License.
 
-## 👨‍💻 Author
+##  Author
 
 **Hritik MB**
 - GitHub: [@hritikmb-professional](https://github.com/hritikmb-professional)
 
-## 🙏 Acknowledgments
+##  Acknowledgments
 
 - Google Gemini AI for intelligent resume parsing
 - MongoDB Atlas for database hosting
