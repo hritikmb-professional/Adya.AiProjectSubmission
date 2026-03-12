@@ -9,9 +9,9 @@ export const compareCandidates = (ids: string[]) =>
       ids: ids.join(",")
     }
   })
+
 export const updateCandidateStatus = (
   candidateId: string,
-  status: "shortlisted" | "hired" | "rejected"
+  status: "applied" | "promote_to_oa" | "promote_to_hr" | "rejected"
 ) =>
   api.patch(`/candidates/${candidateId}/status`, { status })
-

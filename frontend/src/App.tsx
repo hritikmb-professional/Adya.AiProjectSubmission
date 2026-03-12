@@ -6,6 +6,8 @@ import JobDetails from "./pages/JobDetails"
 import CandidateDetails from "./pages/CandidateDetails"
 import CompareCandidates from "./pages/CompareCandidates"
 import ProtectedRoute from "./routes/ProtectedRoute"
+import InterviewSchedule from "./pages/InterviewSchedule"
+import InterviewFeedback from "./pages/InterviewFeedback"
 
 export default function App() {
   return (
@@ -47,6 +49,23 @@ export default function App() {
           element={
             <ProtectedRoute>
               <CompareCandidates />
+            </ProtectedRoute>
+          }
+        />
+
+        <Route
+          path="/interviews/schedule"
+          element={
+            <ProtectedRoute>
+              <InterviewSchedule />
+            </ProtectedRoute>
+          }
+        />
+        <Route
+          path="/interviews/:id/feedback"
+          element={
+            <ProtectedRoute>
+              <InterviewFeedback />
             </ProtectedRoute>
           }
         />
